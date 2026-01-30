@@ -1,4 +1,7 @@
 {
+    "name": "kemayu/cours-4-backend", 
+    "description": "Short project description here",
+
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
@@ -10,6 +13,7 @@
         "doctrine/doctrine-bundle": "^2.11",
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^2.17",
+        "fakerphp/faker": "^1.24",
         "phpdocumentor/reflection-docblock": "^5.3",
         "symfony/asset": "7.4.*",
         "symfony/asset-mapper": "7.4.*",
@@ -112,6 +116,7 @@
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^7.4",
         "symfony/stopwatch": "7.4.*",
-        "symfony/web-profiler-bundle": "7.4.*"
+        "symfony/web-profiler-bundle": "7.4.*",
+        "fakerphp/faker": "^1.24"
     }
 }
