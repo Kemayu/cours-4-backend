@@ -30,14 +30,13 @@ class InsertdataCommand extends Command
 
     protected function configure(): void
     {
-        
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        
+
         $io = new SymfonyStyle($input, $output);
-      
+
 
         $p1 = new Personne();
         $p1->setNom("Demirci");
@@ -51,7 +50,7 @@ class InsertdataCommand extends Command
         $p1->setBatiment($b1);
 
         $b1->addPersonne($p1);
-        
+
 
 
         $this->em->persist($p1);

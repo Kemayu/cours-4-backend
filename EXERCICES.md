@@ -19,12 +19,12 @@ Listes des points attendu:
 - [X] Créer le fichier de migration avec la commande symfony
 - [X] Créer au moins un controller avec sa vue twig
 - [X] Créer une commande qui ajoute des données en BDD
-- [ ] script bash qui execute tout les test
+- [X] script bash qui execute tout les test
 - [X] La commande d'ajout de données utilise FakerPHP
 
 Listes des points bonus
-- [ ] Ajouter des test unitaire
-- [ ] un dossier Githook, avec un precommit et prepush qui execute tout les tests
+- [X] Ajouter des test unitaire
+- [X] un dossier Githook, avec un precommit et prepush qui execute tout les tests
 
 Listes des point bonus si vous avez le projet sur github
-- [ ] Ajouter une Github Action qui execute phpstan/phpcs/phpunit
+- [X] Ajouter une Github Action qui execute phpstan/phpcs/phpunit
